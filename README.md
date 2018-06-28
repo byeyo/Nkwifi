@@ -7,6 +7,7 @@
 <li>将编译好的jar包和pssuspend64.exe放在一起
 <li>或者直接下载 [编译好的版本+pssuspend64.exe](http://www.byeyo.com:8080)
 <li>第一次使用需要双击pssuspend64.exe安装
+<li>安装完成后即可正产使用jar脚本
 </ol>
 
 
@@ -15,11 +16,17 @@
 pssuspend64.exe用于挂起进程，使目标进程假死
 
 ```
-可以执行
+执行
 
 pssuspend64.exe processName   
 
-来手动挂起进程
+手动挂起进程
+
+执行
+
+pssuspend64.exe processName   
+
+手动恢复进程
 
 ```
 
