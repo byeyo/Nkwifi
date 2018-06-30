@@ -24,7 +24,7 @@ pssuspend64.exe processName
 
 执行
 
-pssuspend64.exe processName   
+pssuspend64.exe -r processName   
 
 手动恢复进程
 
