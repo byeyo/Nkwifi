@@ -3,7 +3,7 @@
 
 ---
 <ol>
-<li>pssuspend64:https://docs.microsoft.com/zh-cn/sysinternals/downloads/pssuspend
+<li>下载pssuspend64:https://docs.microsoft.com/zh-cn/sysinternals/downloads/pssuspend
 <li>将编译好的jar包和pssuspend64.exe放在一起
 <li><h>或者直接下载</h><a href="http://www.byeyo.com:8080/">编译好的版本+pssuspend64.exe</a> 
 <li>第一次使用需要双击pssuspend64.exe安装
