@@ -5,9 +5,9 @@
 <ol>
 <li>pssuspend64:https://docs.microsoft.com/zh-cn/sysinternals/downloads/pssuspend
 <li>将编译好的jar包和pssuspend64.exe放在一起
-<li>或者直接下载 [编译好的版本+pssuspend64.exe](http://www.byeyo.com:8080)
+<li><h>或者直接下载</h><a href="http://www.byeyo.com:8080/">编译好的版本+pssuspend64.exe</a> 
 <li>第一次使用需要双击pssuspend64.exe安装
-<li>安装完成后即可正产使用jar脚本
+<li>安装完成后即可正常使用jar脚本
 </ol>
 
 
@@ -32,6 +32,6 @@ pssuspend64.exe -r processName
 
 说明：挂起Netkeeper进程，使之无法检测wifi和断网
 
-如无法使用pssuspend64.exe悬挂进程，只有另寻它法了
+如无法使用pssuspend64.exe悬挂进程，可能是权限不够，可以使用nircmd.exe来执行cmd命令
 
 若未开启wifi就已经提示检测到wifi了,说明有残留的wifi环境,请根据实际情况重写Tool.cancelWifiState()
